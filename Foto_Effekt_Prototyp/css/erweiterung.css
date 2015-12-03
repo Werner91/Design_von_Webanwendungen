@@ -10,5 +10,25 @@
 	height: auto;
 }
 
-.lupeWrapper{position:absolute;left:0;top:0;}
-.lupe{opacity:0;}
+.lupeWrapper{
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+.lupe{
+	opacity:0;
+}
+
+
+.blogbild img {
+transition: all 0.4s ease 0s;
+-webkit-transition: all 0.4s ease 0s;
+transform-origin: center center;
+-webkit-transform-origin: center center;
+}
+
+.blogbild img:hover {
+transform: scale(1.2) rotate(6deg);
+-webkit-transform: scale(1.2);
+}
