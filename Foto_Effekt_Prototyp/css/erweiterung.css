@@ -1,0 +1,14 @@
+.portfolio_pics
+{
+	width: 100%;
+}
+
+.pic_
+{
+	float: left;
+	width: 33.3333%;
+	height: auto;
+}
+
+.lupeWrapper{position:absolute;left:0;top:0;}
+.lupe{opacity:0;}
